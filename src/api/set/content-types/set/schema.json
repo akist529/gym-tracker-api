@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sets",
+  "info": {
+    "singularName": "set",
+    "pluralName": "sets",
+    "displayName": "Set"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Reps": {
+      "type": "integer"
+    },
+    "Weight": {
+      "type": "integer"
+    }
+  }
+}
