@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "entries",
+  "info": {
+    "singularName": "entry",
+    "pluralName": "entries",
+    "displayName": "Entry",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "sets": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::set.set"
+    },
+    "key": {
+      "type": "integer"
+    }
+  }
+}
